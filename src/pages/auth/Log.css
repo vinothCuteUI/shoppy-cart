@@ -1,0 +1,9 @@
+.log-form{
+    position: relative;
+    width: 300px;
+    background-color: #fff;
+    border:solid 1px #e4e4e4;
+    border-radius: 15px;
+    padding: 1rem;
+    box-shadow: 0 3px 10px -3px #ccc;
+}

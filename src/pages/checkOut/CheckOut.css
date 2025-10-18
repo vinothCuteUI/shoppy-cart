@@ -1,0 +1,21 @@
+.checkout-items{
+    background-color: #fff;
+    border:solid 1px #ccc;
+    border-radius: 10px;
+    padding: 15px;
+}
+.summery-amount{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+.summery-amount li{
+    display: flex;
+    justify-content: space-between;
+}
+.checkout-total{
+    padding: 10px 0;
+    border-top: solid 1px #ccc;
+    margin-top: 10px;
+}

@@ -1,0 +1,7 @@
+.product-card{
+    border:solid 1px #e4e4e4;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 3px 4px 10px -3px #ccc;
+    padding: 1rem;
+}
