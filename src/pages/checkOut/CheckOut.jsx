@@ -16,6 +16,7 @@ const CheckOut = () => {
     const [finalAmount, setFinalAmount] = useState(30)
     const cartCount = cartItems.reduce((ac, cr) => (ac + cr.quantity), 0)
     const totalAmout = useMemo(()=> {
+        
         if(cartItems.length){
             let totalPrice = cartItems.reduce((ac, crn) => {
                 return ac + (crn.product.finalPrice * crn.quantity)
